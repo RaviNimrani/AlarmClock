@@ -1,0 +1,151 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: #10101E; */
+  background-color: rgb(208, 205, 205);
+}
+.outer {
+  background-color: #ecebf5d6;
+  backdrop-filter: blur(40px);
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  border-top: 7px solid #ff4c4c;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+#time {
+  margin: 20px 0px;
+}
+
+.outer span {
+  display: inline;
+  color: rgb(10, 7, 5);
+  font-size: 2.5rem;
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+
+.outer .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.outer .column {
+  background: white;
+  width: 7rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column select {
+  background: white;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
+
+.outer #set {
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #000508;
+  background: none;
+  color: rgb(16, 4, 4);
+  width: 100%;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.outer #set:hover {
+  background-color: #7f8182;
+  color: white;
+}
+
+.outer:hover {
+  box-shadow: 0 0 10px #2e94e3;
+}
+
+.set-alarm-container {
+  width: 100%;
+}
+.set-alarm-container-title {
+  margin: 10px 0px;
+  font-weight: 500;
+  color: #000000;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.alarm {
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  color: #0e141b;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.alarm {
+  box-shadow: 0 0 10px #505151;
+  background-color: rgb(243, 236, 236);
+}
+
+.delete-alarm {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  color: #000508;
+  background-color: rgba(22, 9, 9, 0.112);
+  font-weight: 500;
+  font-size: xx-medium;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: rgb(28, 22, 10);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#time {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #505151;
+}
