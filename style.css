@@ -15,7 +15,7 @@ body {
 .outer {
   background-color: #ecebf5d6;
   backdrop-filter: blur(40px);
-  width: 25vw;
+  width: 30vw;
   display: flex;
   align-items: center;
   border-top: 7px solid #ff4c4c;
