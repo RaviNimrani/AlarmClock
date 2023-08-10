@@ -12,6 +12,12 @@ body {
   /* background-color: #10101E; */
   background-color: rgb(208, 205, 205);
 }
+
+#time {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #505151;
+}
 .outer {
   background-color: #ecebf5d6;
   backdrop-filter: blur(40px);
@@ -144,8 +150,47 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-#time {
-  font-size: 2.5rem;
-  font-weight: 500;
-  color: #505151;
+@media only screen and (max-width: 1500px) {
+  /* adding padding to container */
+  .outer {
+    width: 40vw;
+  }
+
+  #time {
+    font-size: 2rem;
+  }
+
+  .column select {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* adding padding to container */
+  .outer {
+    width: 60vw;
+  }
+
+  #time {
+    font-size: 2rem;
+  }
+
+  .column select {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* adding padding to container */
+  .outer {
+    width: 100vw;
+  }
+
+  #time {
+    font-size: 2rem;
+  }
+
+  .column select {
+    font-size: 18px;
+  }
 }
